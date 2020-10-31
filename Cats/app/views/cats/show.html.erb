@@ -1,0 +1,30 @@
+<a href=" <%= cats_url %> ">99 Cats</a>
+
+<h1><%= @cat.name %></h1>
+
+<table>
+    <tr>
+        <th>Attribute</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td><%= @cat.age %></td>
+    </tr>
+    <tr>
+        <td>Birth Date</td>
+        <td><%= @cat.birth_date %></td>
+    </tr>
+    <tr>
+        <td>Color</td>
+        <td><%= @cat.color %></td>
+    </tr>
+    <tr>
+        <td>Sex</td>
+        <td><%= @cat.sex %></td>
+    </tr>
+</table>
+
+<br><br>
+
+<a href="<%= edit_cat_url(@cat) %>">Edit Cat</a>

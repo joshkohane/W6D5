@@ -1,0 +1,52 @@
+<h1>Edit Cat</h1>
+
+<%= render 'form', cat: @cat, type: 'edit' %>
+
+<!--<form action="<%#= cat_url(@cat) %>" method="POST">
+    <input type="hidden" name="_method" value="PATCH">
+    <label>Name:
+        <input type="text" name="cat[name]" value="<%#= @cat.name %>">
+    </label>
+
+    <br><br>
+
+    <label for="sex">Sex:</label>
+    <label for="male">Male</label>
+    <input type="radio" name="cat[sex]" id="male" value= "M" <%#= @cat.sex == 'M' ? "checked" : '' %> >
+    <label for="female">Female</label>
+    <input type="radio" name="cat[sex]" id="female" value= "F" <%#= @cat.sex == 'F' ? "checked" : '' %>>
+ 
+
+    <br><br>
+
+    <label for="colors">Choose A Color:</label>
+    <select name="cat[color]">
+        <option disabled>--select a color--</option>
+        <%# Cat::COLORS.each do |color| %>
+            <option value="<%#= color %>" <%#= (@cat.color == color) ? "selected" : '' %>> <%#= "#{color}" %> </option>
+        <% #end %>
+    </select>
+
+    <br><br>
+
+    <label>Birthday:
+        <input type="date" name="cat[birth_date]" value="<%#= @cat.birth_date %>">
+    </label>
+
+    <br><br>
+
+    <label for="description">Description:
+        <textarea name="cat[description]" id="description" ><%#= @cat.description%></textarea>
+    </label>
+
+    <br><br>
+
+    <input type="submit" value="Edit Cat!">
+
+</form>-->
+
+
+
+
+
+
